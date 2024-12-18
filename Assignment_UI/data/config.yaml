@@ -1,0 +1,2 @@
+base_url: "https://www.britinsurance.com/"
+timeout: 10   # Timeout in seconds for implicit wait
