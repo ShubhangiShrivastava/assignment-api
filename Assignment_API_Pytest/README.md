@@ -1,21 +1,25 @@
-API- PATCH Method testing using Python, Requests and Pytest
 
+## API- PATCH Method testing using Python, Requests and Pytest
 
-Prerequisites:
+## Prerequisites:
+
 In order to run these tests please install:
 Python 3.8+
 pip - Python package manager
 Requests Library
 
-Installation Process:
+## Installation Process:
+
 Get a clone this repository:
 git clone https://github.com/yourusername/your-project.git
-Assignment_API_Pytest
+Assignment_API_Pytest  
 
-Dependencies: All required dependencies kept in this text file
+## Dependencies:
+
+All required dependencies kept in this text file
 pip install -r requirements.txt
 
-Project Structure
+## Project Structure:
 Assignment/
 │
 ├── tests/                          # All test cases
@@ -39,16 +43,16 @@ Assignment/
 ├── pytest.ini               # Pytest configuration
 └── README.md                # Project documentation
 
-Config File:
+## Config File:
 All all configurable parameters in config.yaml file under data folder:
  base_url
  timeout
 
-How to run the test:
+## How to run the test:
 1.Run all tests:
  pytest 
 2.Generate an HTML Report:
  pytest --html=reports/html/report.html  # HTML reports created under reports folder
-
-Screenshots: Captured for failed tests and saved in screenshots/.
-
+ 
+##Screenshots:
+Captured for failed tests and saved in screenshots/.
