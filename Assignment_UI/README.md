@@ -22,10 +22,9 @@ All required dependencies kept in this text file
 pip install -r requirements.txt
 
 ## Project Structure:
+```bash
 Assignment/
-Assignment/
-│
-├── tests/                   # All test cases
+tests/                   # All test cases
 │   ├── test_tiles.py        # test file
 │   └── conftest.py          # Shared fixtures/configuration
 │
@@ -49,7 +48,7 @@ Assignment/
 ├── requirements.txt         # Python dependencies
 ├── pytest.ini               # Pytest configuration
 └── README.md                # Project documentation
-
+```
 ## Config File:
 All all configurable parameters in config.yaml file under data folder:
  base_url
