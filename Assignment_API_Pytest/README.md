@@ -20,10 +20,11 @@ All required dependencies kept in this text file
 pip install -r requirements.txt
 
 ## Project Structure:
+```bash
 Assignment/
 │
 ├── tests/                          # All test cases
-│   ├── test_PATCH_METHOD.py        # test file
+│   ├── test_PATCH_METHOD.py        # test file for PATCH Method
 │   └── conftest.py                 # Shared fixtures/configuration
 │
 ├── utils/                   # Utility functions/helpers
@@ -42,7 +43,7 @@ Assignment/
 ├── requirements.txt         # Python dependencies
 ├── pytest.ini               # Pytest configuration
 └── README.md                # Project documentation
-
+```
 ## Config File:
 All all configurable parameters in config.yaml file under data folder:
  base_url
@@ -54,5 +55,5 @@ All all configurable parameters in config.yaml file under data folder:
 2.Generate an HTML Report:
  pytest --html=reports/html/report.html  # HTML reports created under reports folder
  
-##Screenshots:
+## Screenshots:
 Captured for failed tests and saved in screenshots/.
